@@ -1,0 +1,32 @@
+{
+    "name": "cse341-proyect",
+    "version": "1.0.0",
+    "description": "Proyect for cse431 name: Recipe Book",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app.js",
+        "swagger-autogen": "node ./swagger.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JermainLopez/cse341-Proyect.git"
+    },
+    "author": "Jermain Lopez",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/JermainLopez/cse341-Proyect/issues"
+    },
+    "homepage": "https://github.com/JermainLopez/cse341-Proyect#readme",
+    "dependencies": {
+        "body-parser": "^1.20.0",
+        "dotenv": "^16.0.1",
+        "express": "^4.18.1",
+        "mongodb": "^4.7.0",
+        "swagger-ui-express": "^4.4.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.16",
+        "swagger-autogen": "^2.21.3"
+    }
+}
